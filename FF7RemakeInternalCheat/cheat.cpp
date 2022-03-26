@@ -1,8 +1,8 @@
 #include "cheat.h"
 #include <Windows.h>
-#include <MinHook.h>
+#include <MinHook.h> // Credits: https://github.com/TsudaKageyu/minhook
 
-#pragma comment(lib, "libMinHook.x64.lib")
+#pragma comment(lib, "libMinHook.x64.lib") // Credits: https://github.com/TsudaKageyu/minhook
 
 
 uintptr_t damage_addrs = Cheat::baseModule + 0xAFB6C0;
